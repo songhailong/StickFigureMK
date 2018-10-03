@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8210D96A2161E7B8006E488B /* 代码块@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D95C2161E7B7006E488B /* 代码块@2x.png */; };
+		8210D96B2161E7B8006E488B /* 代码块@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D95D2161E7B7006E488B /* 代码块@3x.png */; };
+		8210D96C2161E7B8006E488B /* 加号@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D95E2161E7B7006E488B /* 加号@2x.png */; };
+		8210D96D2161E7B8006E488B /* 加号@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D95F2161E7B7006E488B /* 加号@3x.png */; };
+		8210D96E2161E7B8006E488B /* 加粗@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D9602161E7B7006E488B /* 加粗@2x.png */; };
+		8210D96F2161E7B8006E488B /* 加粗@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D9612161E7B7006E488B /* 加粗@3x.png */; };
+		8210D9702161E7B8006E488B /* 无序列表@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D9622161E7B7006E488B /* 无序列表@2x.png */; };
+		8210D9712161E7B8006E488B /* 无序列表@3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D9632161E7B7006E488B /* 无序列表@3.png */; };
+		8210D9722161E7B8006E488B /* 标题1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D9642161E7B7006E488B /* 标题1@2x.png */; };
+		8210D9732161E7B8006E488B /* 标题1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D9652161E7B7006E488B /* 标题1@3x.png */; };
+		8210D9742161E7B8006E488B /* 标题2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D9662161E7B7006E488B /* 标题2@2x.png */; };
+		8210D9752161E7B8006E488B /* 标题2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D9672161E7B7006E488B /* 标题2@3x.png */; };
+		8210D9762161E7B8006E488B /* 链接@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D9682161E7B7006E488B /* 链接@2x.png */; };
+		8210D9772161E7B8006E488B /* 链接@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D9692161E7B7006E488B /* 链接@3x.png */; };
+		825A6C44216499540058B7CF /* JBConstStringFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A6C43216499540058B7CF /* JBConstStringFile.swift */; };
+		825A6C492164AFD00058B7CF /* JBhttpTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A6C482164AFD00058B7CF /* JBhttpTool.swift */; };
 		82A18D85215DEBB700F55D25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A18D84215DEBB700F55D25 /* AppDelegate.swift */; };
 		82A18D87215DEBB700F55D25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A18D86215DEBB700F55D25 /* ViewController.swift */; };
 		82A18D8A215DEBB700F55D25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A18D88215DEBB700F55D25 /* Main.storyboard */; };
@@ -14,7 +30,53 @@
 		82A18D8F215DEBCD00F55D25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A18D8D215DEBCD00F55D25 /* LaunchScreen.storyboard */; };
 		82A18D9A215DEBCE00F55D25 /* StickFigureMKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A18D99215DEBCE00F55D25 /* StickFigureMKTests.swift */; };
 		82A18DA5215DEBCE00F55D25 /* StickFigureMKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A18DA4215DEBCE00F55D25 /* StickFigureMKUITests.swift */; };
-		E3E7725927289E88AC66C448 /* Pods_StickFigureMK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83628FB2609285B580AAD1C0 /* Pods_StickFigureMK.framework */; };
+		82A18DB4215E081900F55D25 /* SFTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A18DB3215E081900F55D25 /* SFTextView.swift */; };
+		82A18E3B215E093100F55D25 /* Backslash escapes.html in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E19215E093000F55D25 /* Backslash escapes.html */; };
+		82A18E3C215E093100F55D25 /* Backslash escapes.text in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E1A215E093000F55D25 /* Backslash escapes.text */; };
+		82A18E3D215E093100F55D25 /* Code block in a list item.html in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E1B215E093000F55D25 /* Code block in a list item.html */; };
+		82A18E3E215E093100F55D25 /* Code block in a list item.text in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E1C215E093000F55D25 /* Code block in a list item.text */; };
+		82A18E3F215E093100F55D25 /* Code Spans.html in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E1D215E093000F55D25 /* Code Spans.html */; };
+		82A18E40215E093100F55D25 /* Code Spans.text in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E1E215E093000F55D25 /* Code Spans.text */; };
+		82A18E41215E093100F55D25 /* Email auto links.html in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E1F215E093000F55D25 /* Email auto links.html */; };
+		82A18E42215E093100F55D25 /* Email auto links.text in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E20215E093000F55D25 /* Email auto links.text */; };
+		82A18E43215E093100F55D25 /* Emphasis.html in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E21215E093000F55D25 /* Emphasis.html */; };
+		82A18E44215E093100F55D25 /* Emphasis.text in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E22215E093000F55D25 /* Emphasis.text */; };
+		82A18E45215E093100F55D25 /* Headers.html in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E23215E093000F55D25 /* Headers.html */; };
+		82A18E46215E093100F55D25 /* Headers.text in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E24215E093000F55D25 /* Headers.text */; };
+		82A18E47215E093100F55D25 /* Images (Untitled).html in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E25215E093000F55D25 /* Images (Untitled).html */; };
+		82A18E48215E093100F55D25 /* Images (Untitled).text in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E26215E093000F55D25 /* Images (Untitled).text */; };
+		82A18E49215E093100F55D25 /* Inline HTML (Simple).html in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E27215E093000F55D25 /* Inline HTML (Simple).html */; };
+		82A18E4A215E093100F55D25 /* Inline HTML (Simple).text in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E28215E093000F55D25 /* Inline HTML (Simple).text */; };
+		82A18E4B215E093100F55D25 /* Inline HTML (Span).html in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E29215E093000F55D25 /* Inline HTML (Span).html */; };
+		82A18E4C215E093100F55D25 /* Inline HTML (Span).text in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E2A215E093000F55D25 /* Inline HTML (Span).text */; };
+		82A18E4D215E093100F55D25 /* Inline HTML comments.html in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E2B215E093000F55D25 /* Inline HTML comments.html */; };
+		82A18E4E215E093100F55D25 /* Inline HTML comments.text in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E2C215E093000F55D25 /* Inline HTML comments.text */; };
+		82A18E4F215E093100F55D25 /* Ins & del.html in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E2D215E093000F55D25 /* Ins & del.html */; };
+		82A18E50215E093100F55D25 /* Ins & del.text in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E2E215E093000F55D25 /* Ins & del.text */; };
+		82A18E51215E093100F55D25 /* Links, inline style.html in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E2F215E093000F55D25 /* Links, inline style.html */; };
+		82A18E52215E093100F55D25 /* Links, inline style.text in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E30215E093000F55D25 /* Links, inline style.text */; };
+		82A18E53215E093100F55D25 /* MD5 Hashes.html in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E31215E093000F55D25 /* MD5 Hashes.html */; };
+		82A18E54215E093100F55D25 /* MD5 Hashes.text in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E32215E093000F55D25 /* MD5 Hashes.text */; };
+		82A18E55215E093100F55D25 /* Nesting.html in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E33215E093000F55D25 /* Nesting.html */; };
+		82A18E56215E093100F55D25 /* Nesting.text in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E34215E093000F55D25 /* Nesting.text */; };
+		82A18E57215E093100F55D25 /* Parens in URL.html in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E35215E093000F55D25 /* Parens in URL.html */; };
+		82A18E58215E093100F55D25 /* Parens in URL.text in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E36215E093000F55D25 /* Parens in URL.text */; };
+		82A18E59215E093100F55D25 /* PHP-Specific Bugs.html in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E37215E093000F55D25 /* PHP-Specific Bugs.html */; };
+		82A18E5A215E093100F55D25 /* PHP-Specific Bugs.text in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E38215E093000F55D25 /* PHP-Specific Bugs.text */; };
+		82A18E5B215E093100F55D25 /* Tight blocks.html in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E39215E093000F55D25 /* Tight blocks.html */; };
+		82A18E5C215E093100F55D25 /* Tight blocks.text in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E3A215E093000F55D25 /* Tight blocks.text */; };
+		82A18E71215E094900F55D25 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82A18E5E215E094900F55D25 /* Info.plist */; };
+		82A18E72215E094900F55D25 /* MMDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A18E60215E094900F55D25 /* MMDocument.m */; };
+		82A18E73215E094900F55D25 /* MMElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A18E63215E094900F55D25 /* MMElement.m */; };
+		82A18E74215E094900F55D25 /* MMGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A18E65215E094900F55D25 /* MMGenerator.m */; };
+		82A18E75215E094900F55D25 /* MMHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A18E67215E094900F55D25 /* MMHTMLParser.m */; };
+		82A18E76215E094900F55D25 /* MMMarkdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A18E6A215E094900F55D25 /* MMMarkdown.m */; };
+		82A18E77215E094900F55D25 /* MMParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A18E6C215E094900F55D25 /* MMParser.m */; };
+		82A18E78215E094900F55D25 /* MMScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A18E6E215E094900F55D25 /* MMScanner.m */; };
+		82A18E79215E094900F55D25 /* MMSpanParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A18E70215E094900F55D25 /* MMSpanParser.m */; };
+		82A18E7B215E09B200F55D25 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A18E7A215E09B200F55D25 /* JavaScriptCore.framework */; };
+		82A18E7D215E0D3200F55D25 /* SFTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A18E7C215E0D3200F55D25 /* SFTool.swift */; };
+		82A18E7F215E173600F55D25 /* SFTextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A18E7E215E173600F55D25 /* SFTextInputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +98,22 @@
 
 /* Begin PBXFileReference section */
 		4BBBABDEA1E3545FD2E1921B /* Pods-StickFigureMK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickFigureMK.release.xcconfig"; path = "Pods/Target Support Files/Pods-StickFigureMK/Pods-StickFigureMK.release.xcconfig"; sourceTree = "<group>"; };
+		8210D95C2161E7B7006E488B /* 代码块@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代码块@2x.png"; sourceTree = "<group>"; };
+		8210D95D2161E7B7006E488B /* 代码块@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代码块@3x.png"; sourceTree = "<group>"; };
+		8210D95E2161E7B7006E488B /* 加号@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "加号@2x.png"; sourceTree = "<group>"; };
+		8210D95F2161E7B7006E488B /* 加号@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "加号@3x.png"; sourceTree = "<group>"; };
+		8210D9602161E7B7006E488B /* 加粗@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "加粗@2x.png"; sourceTree = "<group>"; };
+		8210D9612161E7B7006E488B /* 加粗@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "加粗@3x.png"; sourceTree = "<group>"; };
+		8210D9622161E7B7006E488B /* 无序列表@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无序列表@2x.png"; sourceTree = "<group>"; };
+		8210D9632161E7B7006E488B /* 无序列表@3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无序列表@3.png"; sourceTree = "<group>"; };
+		8210D9642161E7B7006E488B /* 标题1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标题1@2x.png"; sourceTree = "<group>"; };
+		8210D9652161E7B7006E488B /* 标题1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标题1@3x.png"; sourceTree = "<group>"; };
+		8210D9662161E7B7006E488B /* 标题2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标题2@2x.png"; sourceTree = "<group>"; };
+		8210D9672161E7B7006E488B /* 标题2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标题2@3x.png"; sourceTree = "<group>"; };
+		8210D9682161E7B7006E488B /* 链接@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "链接@2x.png"; sourceTree = "<group>"; };
+		8210D9692161E7B7006E488B /* 链接@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "链接@3x.png"; sourceTree = "<group>"; };
+		825A6C43216499540058B7CF /* JBConstStringFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBConstStringFile.swift; sourceTree = "<group>"; };
+		825A6C482164AFD00058B7CF /* JBhttpTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBhttpTool.swift; sourceTree = "<group>"; };
 		82A18D81215DEBB700F55D25 /* StickFigureMK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickFigureMK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A18D84215DEBB700F55D25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82A18D86215DEBB700F55D25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +127,64 @@
 		82A18DA0215DEBCE00F55D25 /* StickFigureMKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickFigureMKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A18DA4215DEBCE00F55D25 /* StickFigureMKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickFigureMKUITests.swift; sourceTree = "<group>"; };
 		82A18DA6215DEBCE00F55D25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A18DB2215E075B00F55D25 /* BridingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridingHeader.h; sourceTree = "<group>"; };
+		82A18DB3215E081900F55D25 /* SFTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFTextView.swift; sourceTree = "<group>"; };
+		82A18E19215E093000F55D25 /* Backslash escapes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Backslash escapes.html"; sourceTree = "<group>"; };
+		82A18E1A215E093000F55D25 /* Backslash escapes.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Backslash escapes.text"; sourceTree = "<group>"; };
+		82A18E1B215E093000F55D25 /* Code block in a list item.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Code block in a list item.html"; sourceTree = "<group>"; };
+		82A18E1C215E093000F55D25 /* Code block in a list item.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Code block in a list item.text"; sourceTree = "<group>"; };
+		82A18E1D215E093000F55D25 /* Code Spans.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Code Spans.html"; sourceTree = "<group>"; };
+		82A18E1E215E093000F55D25 /* Code Spans.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Code Spans.text"; sourceTree = "<group>"; };
+		82A18E1F215E093000F55D25 /* Email auto links.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Email auto links.html"; sourceTree = "<group>"; };
+		82A18E20215E093000F55D25 /* Email auto links.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Email auto links.text"; sourceTree = "<group>"; };
+		82A18E21215E093000F55D25 /* Emphasis.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Emphasis.html; sourceTree = "<group>"; };
+		82A18E22215E093000F55D25 /* Emphasis.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Emphasis.text; sourceTree = "<group>"; };
+		82A18E23215E093000F55D25 /* Headers.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Headers.html; sourceTree = "<group>"; };
+		82A18E24215E093000F55D25 /* Headers.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Headers.text; sourceTree = "<group>"; };
+		82A18E25215E093000F55D25 /* Images (Untitled).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Images (Untitled).html"; sourceTree = "<group>"; };
+		82A18E26215E093000F55D25 /* Images (Untitled).text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Images (Untitled).text"; sourceTree = "<group>"; };
+		82A18E27215E093000F55D25 /* Inline HTML (Simple).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Inline HTML (Simple).html"; sourceTree = "<group>"; };
+		82A18E28215E093000F55D25 /* Inline HTML (Simple).text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Inline HTML (Simple).text"; sourceTree = "<group>"; };
+		82A18E29215E093000F55D25 /* Inline HTML (Span).html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Inline HTML (Span).html"; sourceTree = "<group>"; };
+		82A18E2A215E093000F55D25 /* Inline HTML (Span).text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Inline HTML (Span).text"; sourceTree = "<group>"; };
+		82A18E2B215E093000F55D25 /* Inline HTML comments.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Inline HTML comments.html"; sourceTree = "<group>"; };
+		82A18E2C215E093000F55D25 /* Inline HTML comments.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Inline HTML comments.text"; sourceTree = "<group>"; };
+		82A18E2D215E093000F55D25 /* Ins & del.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Ins & del.html"; sourceTree = "<group>"; };
+		82A18E2E215E093000F55D25 /* Ins & del.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Ins & del.text"; sourceTree = "<group>"; };
+		82A18E2F215E093000F55D25 /* Links, inline style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Links, inline style.html"; sourceTree = "<group>"; };
+		82A18E30215E093000F55D25 /* Links, inline style.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Links, inline style.text"; sourceTree = "<group>"; };
+		82A18E31215E093000F55D25 /* MD5 Hashes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "MD5 Hashes.html"; sourceTree = "<group>"; };
+		82A18E32215E093000F55D25 /* MD5 Hashes.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "MD5 Hashes.text"; sourceTree = "<group>"; };
+		82A18E33215E093000F55D25 /* Nesting.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Nesting.html; sourceTree = "<group>"; };
+		82A18E34215E093000F55D25 /* Nesting.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Nesting.text; sourceTree = "<group>"; };
+		82A18E35215E093000F55D25 /* Parens in URL.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Parens in URL.html"; sourceTree = "<group>"; };
+		82A18E36215E093000F55D25 /* Parens in URL.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Parens in URL.text"; sourceTree = "<group>"; };
+		82A18E37215E093000F55D25 /* PHP-Specific Bugs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "PHP-Specific Bugs.html"; sourceTree = "<group>"; };
+		82A18E38215E093000F55D25 /* PHP-Specific Bugs.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "PHP-Specific Bugs.text"; sourceTree = "<group>"; };
+		82A18E39215E093000F55D25 /* Tight blocks.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Tight blocks.html"; sourceTree = "<group>"; };
+		82A18E3A215E093000F55D25 /* Tight blocks.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Tight blocks.text"; sourceTree = "<group>"; };
+		82A18E5E215E094900F55D25 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A18E5F215E094900F55D25 /* MMDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDocument.h; sourceTree = "<group>"; };
+		82A18E60215E094900F55D25 /* MMDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDocument.m; sourceTree = "<group>"; };
+		82A18E61215E094900F55D25 /* MMDocument_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDocument_Private.h; sourceTree = "<group>"; };
+		82A18E62215E094900F55D25 /* MMElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMElement.h; sourceTree = "<group>"; };
+		82A18E63215E094900F55D25 /* MMElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMElement.m; sourceTree = "<group>"; };
+		82A18E64215E094900F55D25 /* MMGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMGenerator.h; sourceTree = "<group>"; };
+		82A18E65215E094900F55D25 /* MMGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMGenerator.m; sourceTree = "<group>"; };
+		82A18E66215E094900F55D25 /* MMHTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHTMLParser.h; sourceTree = "<group>"; };
+		82A18E67215E094900F55D25 /* MMHTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHTMLParser.m; sourceTree = "<group>"; };
+		82A18E68215E094900F55D25 /* MMMarkdown-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMMarkdown-Prefix.pch"; sourceTree = "<group>"; };
+		82A18E69215E094900F55D25 /* MMMarkdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMarkdown.h; sourceTree = "<group>"; };
+		82A18E6A215E094900F55D25 /* MMMarkdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMarkdown.m; sourceTree = "<group>"; };
+		82A18E6B215E094900F55D25 /* MMParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMParser.h; sourceTree = "<group>"; };
+		82A18E6C215E094900F55D25 /* MMParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMParser.m; sourceTree = "<group>"; };
+		82A18E6D215E094900F55D25 /* MMScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMScanner.h; sourceTree = "<group>"; };
+		82A18E6E215E094900F55D25 /* MMScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMScanner.m; sourceTree = "<group>"; };
+		82A18E6F215E094900F55D25 /* MMSpanParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSpanParser.h; sourceTree = "<group>"; };
+		82A18E70215E094900F55D25 /* MMSpanParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSpanParser.m; sourceTree = "<group>"; };
+		82A18E7A215E09B200F55D25 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		82A18E7C215E0D3200F55D25 /* SFTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFTool.swift; sourceTree = "<group>"; };
+		82A18E7E215E173600F55D25 /* SFTextInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFTextInputView.swift; sourceTree = "<group>"; };
 		83628FB2609285B580AAD1C0 /* Pods_StickFigureMK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StickFigureMK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB979B2718AA91884F42944 /* Pods-StickFigureMK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickFigureMK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StickFigureMK/Pods-StickFigureMK.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,7 +194,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3E7725927289E88AC66C448 /* Pods_StickFigureMK.framework in Frameworks */,
+				82A18E7B215E09B200F55D25 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +224,50 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8210D95B2161E7B7006E488B /* 键盘图片 */ = {
+			isa = PBXGroup;
+			children = (
+				8210D95C2161E7B7006E488B /* 代码块@2x.png */,
+				8210D95D2161E7B7006E488B /* 代码块@3x.png */,
+				8210D95E2161E7B7006E488B /* 加号@2x.png */,
+				8210D95F2161E7B7006E488B /* 加号@3x.png */,
+				8210D9602161E7B7006E488B /* 加粗@2x.png */,
+				8210D9612161E7B7006E488B /* 加粗@3x.png */,
+				8210D9622161E7B7006E488B /* 无序列表@2x.png */,
+				8210D9632161E7B7006E488B /* 无序列表@3.png */,
+				8210D9642161E7B7006E488B /* 标题1@2x.png */,
+				8210D9652161E7B7006E488B /* 标题1@3x.png */,
+				8210D9662161E7B7006E488B /* 标题2@2x.png */,
+				8210D9672161E7B7006E488B /* 标题2@3x.png */,
+				8210D9682161E7B7006E488B /* 链接@2x.png */,
+				8210D9692161E7B7006E488B /* 链接@3x.png */,
+			);
+			path = "键盘图片";
+			sourceTree = "<group>";
+		};
+		825A6C452164AF5F0058B7CF /* JBTool */ = {
+			isa = PBXGroup;
+			children = (
+				825A6C482164AFD00058B7CF /* JBhttpTool.swift */,
+			);
+			path = JBTool;
+			sourceTree = "<group>";
+		};
+		825A6C462164AF7A0058B7CF /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				825A6C472164AF8B0058B7CF /* Login */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		825A6C472164AF8B0058B7CF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		82A18D78215DEBB600F55D25 = {
 			isa = PBXGroup;
 			children = (
@@ -113,12 +293,21 @@
 		82A18D83215DEBB700F55D25 /* StickFigureMK */ = {
 			isa = PBXGroup;
 			children = (
+				825A6C462164AF7A0058B7CF /* Class */,
+				825A6C452164AF5F0058B7CF /* JBTool */,
+				8210D95B2161E7B7006E488B /* 键盘图片 */,
+				82A18E17215E092600F55D25 /* 3rd */,
 				82A18D84215DEBB700F55D25 /* AppDelegate.swift */,
 				82A18D86215DEBB700F55D25 /* ViewController.swift */,
+				82A18DB3215E081900F55D25 /* SFTextView.swift */,
+				82A18E7C215E0D3200F55D25 /* SFTool.swift */,
+				82A18E7E215E173600F55D25 /* SFTextInputView.swift */,
 				82A18D88215DEBB700F55D25 /* Main.storyboard */,
 				82A18D8B215DEBCD00F55D25 /* Assets.xcassets */,
 				82A18D8D215DEBCD00F55D25 /* LaunchScreen.storyboard */,
 				82A18D90215DEBCD00F55D25 /* Info.plist */,
+				82A18DB2215E075B00F55D25 /* BridingHeader.h */,
+				825A6C43216499540058B7CF /* JBConstStringFile.swift */,
 			);
 			path = StickFigureMK;
 			sourceTree = "<group>";
@@ -141,9 +330,86 @@
 			path = StickFigureMKUITests;
 			sourceTree = "<group>";
 		};
+		82A18E17215E092600F55D25 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				82A18E5D215E094900F55D25 /* MMMarkdown */,
+				82A18E18215E093000F55D25 /* php-markdown */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		82A18E18215E093000F55D25 /* php-markdown */ = {
+			isa = PBXGroup;
+			children = (
+				82A18E19215E093000F55D25 /* Backslash escapes.html */,
+				82A18E1A215E093000F55D25 /* Backslash escapes.text */,
+				82A18E1B215E093000F55D25 /* Code block in a list item.html */,
+				82A18E1C215E093000F55D25 /* Code block in a list item.text */,
+				82A18E1D215E093000F55D25 /* Code Spans.html */,
+				82A18E1E215E093000F55D25 /* Code Spans.text */,
+				82A18E1F215E093000F55D25 /* Email auto links.html */,
+				82A18E20215E093000F55D25 /* Email auto links.text */,
+				82A18E21215E093000F55D25 /* Emphasis.html */,
+				82A18E22215E093000F55D25 /* Emphasis.text */,
+				82A18E23215E093000F55D25 /* Headers.html */,
+				82A18E24215E093000F55D25 /* Headers.text */,
+				82A18E25215E093000F55D25 /* Images (Untitled).html */,
+				82A18E26215E093000F55D25 /* Images (Untitled).text */,
+				82A18E27215E093000F55D25 /* Inline HTML (Simple).html */,
+				82A18E28215E093000F55D25 /* Inline HTML (Simple).text */,
+				82A18E29215E093000F55D25 /* Inline HTML (Span).html */,
+				82A18E2A215E093000F55D25 /* Inline HTML (Span).text */,
+				82A18E2B215E093000F55D25 /* Inline HTML comments.html */,
+				82A18E2C215E093000F55D25 /* Inline HTML comments.text */,
+				82A18E2D215E093000F55D25 /* Ins & del.html */,
+				82A18E2E215E093000F55D25 /* Ins & del.text */,
+				82A18E2F215E093000F55D25 /* Links, inline style.html */,
+				82A18E30215E093000F55D25 /* Links, inline style.text */,
+				82A18E31215E093000F55D25 /* MD5 Hashes.html */,
+				82A18E32215E093000F55D25 /* MD5 Hashes.text */,
+				82A18E33215E093000F55D25 /* Nesting.html */,
+				82A18E34215E093000F55D25 /* Nesting.text */,
+				82A18E35215E093000F55D25 /* Parens in URL.html */,
+				82A18E36215E093000F55D25 /* Parens in URL.text */,
+				82A18E37215E093000F55D25 /* PHP-Specific Bugs.html */,
+				82A18E38215E093000F55D25 /* PHP-Specific Bugs.text */,
+				82A18E39215E093000F55D25 /* Tight blocks.html */,
+				82A18E3A215E093000F55D25 /* Tight blocks.text */,
+			);
+			path = "php-markdown";
+			sourceTree = "<group>";
+		};
+		82A18E5D215E094900F55D25 /* MMMarkdown */ = {
+			isa = PBXGroup;
+			children = (
+				82A18E5E215E094900F55D25 /* Info.plist */,
+				82A18E5F215E094900F55D25 /* MMDocument.h */,
+				82A18E60215E094900F55D25 /* MMDocument.m */,
+				82A18E61215E094900F55D25 /* MMDocument_Private.h */,
+				82A18E62215E094900F55D25 /* MMElement.h */,
+				82A18E63215E094900F55D25 /* MMElement.m */,
+				82A18E64215E094900F55D25 /* MMGenerator.h */,
+				82A18E65215E094900F55D25 /* MMGenerator.m */,
+				82A18E66215E094900F55D25 /* MMHTMLParser.h */,
+				82A18E67215E094900F55D25 /* MMHTMLParser.m */,
+				82A18E68215E094900F55D25 /* MMMarkdown-Prefix.pch */,
+				82A18E69215E094900F55D25 /* MMMarkdown.h */,
+				82A18E6A215E094900F55D25 /* MMMarkdown.m */,
+				82A18E6B215E094900F55D25 /* MMParser.h */,
+				82A18E6C215E094900F55D25 /* MMParser.m */,
+				82A18E6D215E094900F55D25 /* MMScanner.h */,
+				82A18E6E215E094900F55D25 /* MMScanner.m */,
+				82A18E6F215E094900F55D25 /* MMSpanParser.h */,
+				82A18E70215E094900F55D25 /* MMSpanParser.m */,
+			);
+			path = MMMarkdown;
+			sourceTree = "<group>";
+		};
 		B7EE871B2D995F8D55934C9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				82A18E7A215E09B200F55D25 /* JavaScriptCore.framework */,
 				83628FB2609285B580AAD1C0 /* Pods_StickFigureMK.framework */,
 			);
 			name = Frameworks;
@@ -255,9 +521,58 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82A18E3D215E093100F55D25 /* Code block in a list item.html in Resources */,
 				82A18D8F215DEBCD00F55D25 /* LaunchScreen.storyboard in Resources */,
+				8210D96D2161E7B8006E488B /* 加号@3x.png in Resources */,
+				8210D9702161E7B8006E488B /* 无序列表@2x.png in Resources */,
+				82A18E5B215E093100F55D25 /* Tight blocks.html in Resources */,
+				82A18E4A215E093100F55D25 /* Inline HTML (Simple).text in Resources */,
+				8210D9712161E7B8006E488B /* 无序列表@3.png in Resources */,
+				82A18E46215E093100F55D25 /* Headers.text in Resources */,
+				8210D9722161E7B8006E488B /* 标题1@2x.png in Resources */,
+				82A18E4D215E093100F55D25 /* Inline HTML comments.html in Resources */,
+				82A18E41215E093100F55D25 /* Email auto links.html in Resources */,
+				82A18E4F215E093100F55D25 /* Ins & del.html in Resources */,
+				82A18E48215E093100F55D25 /* Images (Untitled).text in Resources */,
+				82A18E57215E093100F55D25 /* Parens in URL.html in Resources */,
+				82A18E3F215E093100F55D25 /* Code Spans.html in Resources */,
+				8210D96B2161E7B8006E488B /* 代码块@3x.png in Resources */,
+				82A18E3E215E093100F55D25 /* Code block in a list item.text in Resources */,
+				8210D96F2161E7B8006E488B /* 加粗@3x.png in Resources */,
+				82A18E3C215E093100F55D25 /* Backslash escapes.text in Resources */,
+				82A18E40215E093100F55D25 /* Code Spans.text in Resources */,
+				82A18E3B215E093100F55D25 /* Backslash escapes.html in Resources */,
+				82A18E47215E093100F55D25 /* Images (Untitled).html in Resources */,
 				82A18D8C215DEBCD00F55D25 /* Assets.xcassets in Resources */,
+				82A18E4C215E093100F55D25 /* Inline HTML (Span).text in Resources */,
+				8210D9762161E7B8006E488B /* 链接@2x.png in Resources */,
+				8210D96C2161E7B8006E488B /* 加号@2x.png in Resources */,
+				8210D9772161E7B8006E488B /* 链接@3x.png in Resources */,
+				8210D9752161E7B8006E488B /* 标题2@3x.png in Resources */,
+				82A18E4B215E093100F55D25 /* Inline HTML (Span).html in Resources */,
+				82A18E45215E093100F55D25 /* Headers.html in Resources */,
+				82A18E5A215E093100F55D25 /* PHP-Specific Bugs.text in Resources */,
 				82A18D8A215DEBB700F55D25 /* Main.storyboard in Resources */,
+				82A18E58215E093100F55D25 /* Parens in URL.text in Resources */,
+				8210D9742161E7B8006E488B /* 标题2@2x.png in Resources */,
+				8210D96A2161E7B8006E488B /* 代码块@2x.png in Resources */,
+				82A18E4E215E093100F55D25 /* Inline HTML comments.text in Resources */,
+				82A18E5C215E093100F55D25 /* Tight blocks.text in Resources */,
+				82A18E51215E093100F55D25 /* Links, inline style.html in Resources */,
+				82A18E56215E093100F55D25 /* Nesting.text in Resources */,
+				82A18E54215E093100F55D25 /* MD5 Hashes.text in Resources */,
+				82A18E71215E094900F55D25 /* Info.plist in Resources */,
+				82A18E44215E093100F55D25 /* Emphasis.text in Resources */,
+				82A18E55215E093100F55D25 /* Nesting.html in Resources */,
+				82A18E49215E093100F55D25 /* Inline HTML (Simple).html in Resources */,
+				8210D9732161E7B8006E488B /* 标题1@3x.png in Resources */,
+				82A18E43215E093100F55D25 /* Emphasis.html in Resources */,
+				82A18E53215E093100F55D25 /* MD5 Hashes.html in Resources */,
+				82A18E52215E093100F55D25 /* Links, inline style.text in Resources */,
+				82A18E50215E093100F55D25 /* Ins & del.text in Resources */,
+				82A18E42215E093100F55D25 /* Email auto links.text in Resources */,
+				8210D96E2161E7B8006E488B /* 加粗@2x.png in Resources */,
+				82A18E59215E093100F55D25 /* PHP-Specific Bugs.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,8 +646,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82A18E73215E094900F55D25 /* MMElement.m in Sources */,
+				82A18E72215E094900F55D25 /* MMDocument.m in Sources */,
 				82A18D87215DEBB700F55D25 /* ViewController.swift in Sources */,
+				82A18E75215E094900F55D25 /* MMHTMLParser.m in Sources */,
+				82A18E7F215E173600F55D25 /* SFTextInputView.swift in Sources */,
+				82A18E78215E094900F55D25 /* MMScanner.m in Sources */,
+				825A6C492164AFD00058B7CF /* JBhttpTool.swift in Sources */,
+				825A6C44216499540058B7CF /* JBConstStringFile.swift in Sources */,
+				82A18E76215E094900F55D25 /* MMMarkdown.m in Sources */,
 				82A18D85215DEBB700F55D25 /* AppDelegate.swift in Sources */,
+				82A18DB4215E081900F55D25 /* SFTextView.swift in Sources */,
+				82A18E79215E094900F55D25 /* MMSpanParser.m in Sources */,
+				82A18E74215E094900F55D25 /* MMGenerator.m in Sources */,
+				82A18E7D215E0D3200F55D25 /* SFTool.swift in Sources */,
+				82A18E77215E094900F55D25 /* MMParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,7 +837,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6CUR897C43;
+				DEVELOPMENT_TEAM = NUD3T57M8Z;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = StickFigureMK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -517,8 +846,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yingmeng.StickFigureMK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/宋海龙/markDown/未命名文件夹/StickFigureMK/StickFigureMK/StickFigureMK/BridingHeader.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}";
 			};
 			name = Debug;
 		};
@@ -528,7 +860,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6CUR897C43;
+				DEVELOPMENT_TEAM = NUD3T57M8Z;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = StickFigureMK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -536,8 +869,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yingmeng.StickFigureMK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/宋海龙/markDown/未命名文件夹/StickFigureMK/StickFigureMK/StickFigureMK/BridingHeader.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}";
 			};
 			name = Release;
 		};

@@ -12,7 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let with = self.view.frame.size.width
+        let height = self.view.frame.size.height
+        
+        
+        let textview = SFTextView(frame: CGRect.init(x: 0, y: 64, width: with, height: height))
+       self.view.addSubview(textview)
+        
     }
 
 
