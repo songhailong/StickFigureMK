@@ -15,7 +15,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+       let verson=UIDevice.current.systemVersion
+//        if verson  11.0 {
+//
+//        }
+     let   apper  =   UIScrollView.appearance()
+    apper.contentInsetAdjustmentBehavior=UIScrollViewContentInsetAdjustmentBehavior.never
+        let usermaner=UserManger.shareUserManger()
+        if usermaner.IsLogin {
+            
+        }else{
+            window?.rootViewController=JBLoginViewController()
+        }
+       
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

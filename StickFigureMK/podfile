@@ -1,5 +1,6 @@
 platform :ios, '8.0'
 use_frameworks!
+
 target 'StickFigureMK' do
 
 pod 'AFNetworking'
@@ -7,4 +8,5 @@ pod 'Masonry'
 pod 'SDWebImage'
 pod 'MBProgressHUD'
 pod 'EFMarkdown'
+pod 'SVProgressHUD'
 end 

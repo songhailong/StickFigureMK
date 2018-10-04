@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25E7B0E0650B35EF361B4F75 /* Pods_StickFigureMK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8118135C82502C712B71C0B1 /* Pods_StickFigureMK.framework */; };
 		8210D96A2161E7B8006E488B /* 代码块@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D95C2161E7B7006E488B /* 代码块@2x.png */; };
 		8210D96B2161E7B8006E488B /* 代码块@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D95D2161E7B7006E488B /* 代码块@3x.png */; };
 		8210D96C2161E7B8006E488B /* 加号@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D95E2161E7B7006E488B /* 加号@2x.png */; };
@@ -21,8 +22,26 @@
 		8210D9752161E7B8006E488B /* 标题2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D9672161E7B7006E488B /* 标题2@3x.png */; };
 		8210D9762161E7B8006E488B /* 链接@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D9682161E7B7006E488B /* 链接@2x.png */; };
 		8210D9772161E7B8006E488B /* 链接@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8210D9692161E7B7006E488B /* 链接@3x.png */; };
+		824A6FD62165B834007DFED2 /* JBProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824A6FD52165B834007DFED2 /* JBProgressHUD.swift */; };
+		824A6FD82165DDC3007DFED2 /* JBBassAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824A6FD72165DDC3007DFED2 /* JBBassAPI.swift */; };
+		824A6FE6216610FF007DFED2 /* 删除-X@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824A6FDA216610FF007DFED2 /* 删除-X@2x.png */; };
+		824A6FE7216610FF007DFED2 /* 删除-X@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824A6FDB216610FF007DFED2 /* 删除-X@3x.png */; };
+		824A6FE8216610FF007DFED2 /* 删除（x)@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824A6FDC216610FF007DFED2 /* 删除（x)@3x.png */; };
+		824A6FE9216610FF007DFED2 /* 删除（x）@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824A6FDD216610FF007DFED2 /* 删除（x）@2x.png */; };
+		824A6FEA216610FF007DFED2 /* 头像@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824A6FDE216610FF007DFED2 /* 头像@2x.png */; };
+		824A6FEB216610FF007DFED2 /* 头像@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824A6FDF216610FF007DFED2 /* 头像@3x.png */; };
+		824A6FEC216610FF007DFED2 /* 密码锁@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824A6FE0216610FF007DFED2 /* 密码锁@2x.png */; };
+		824A6FED216610FF007DFED2 /* 密码锁@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824A6FE1216610FF007DFED2 /* 密码锁@3x.png */; };
+		824A6FEE216610FF007DFED2 /* 详情头像@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824A6FE2216610FF007DFED2 /* 详情头像@2x.png */; };
+		824A6FEF216610FF007DFED2 /* 详情头像@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824A6FE3216610FF007DFED2 /* 详情头像@3x.png */; };
+		824A6FF0216610FF007DFED2 /* 返回@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824A6FE4216610FF007DFED2 /* 返回@2x.png */; };
+		824A6FF1216610FF007DFED2 /* 返回@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824A6FE5216610FF007DFED2 /* 返回@3x.png */; };
 		825A6C44216499540058B7CF /* JBConstStringFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A6C43216499540058B7CF /* JBConstStringFile.swift */; };
 		825A6C492164AFD00058B7CF /* JBhttpTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A6C482164AFD00058B7CF /* JBhttpTool.swift */; };
+		825A6C4B2164C2170058B7CF /* JBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A6C4A2164C2170058B7CF /* JBLoginViewController.swift */; };
+		825A6C4D2164C22D0058B7CF /* JBRegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A6C4C2164C22D0058B7CF /* JBRegistViewController.swift */; };
+		825A6C4F2164C2470058B7CF /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A6C4E2164C2470058B7CF /* UserModel.swift */; };
+		825A6C512164C2AD0058B7CF /* UserManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A6C502164C2AD0058B7CF /* UserManger.swift */; };
 		82A18D85215DEBB700F55D25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A18D84215DEBB700F55D25 /* AppDelegate.swift */; };
 		82A18D87215DEBB700F55D25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A18D86215DEBB700F55D25 /* ViewController.swift */; };
 		82A18D8A215DEBB700F55D25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A18D88215DEBB700F55D25 /* Main.storyboard */; };
@@ -97,7 +116,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4BBBABDEA1E3545FD2E1921B /* Pods-StickFigureMK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickFigureMK.release.xcconfig"; path = "Pods/Target Support Files/Pods-StickFigureMK/Pods-StickFigureMK.release.xcconfig"; sourceTree = "<group>"; };
+		0BE70BDFBF5DC0702055A472 /* Pods-StickFigureMK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickFigureMK.release.xcconfig"; path = "Pods/Target Support Files/Pods-StickFigureMK/Pods-StickFigureMK.release.xcconfig"; sourceTree = "<group>"; };
+		8118135C82502C712B71C0B1 /* Pods_StickFigureMK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StickFigureMK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8210D95C2161E7B7006E488B /* 代码块@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代码块@2x.png"; sourceTree = "<group>"; };
 		8210D95D2161E7B7006E488B /* 代码块@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代码块@3x.png"; sourceTree = "<group>"; };
 		8210D95E2161E7B7006E488B /* 加号@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "加号@2x.png"; sourceTree = "<group>"; };
@@ -112,8 +132,26 @@
 		8210D9672161E7B7006E488B /* 标题2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标题2@3x.png"; sourceTree = "<group>"; };
 		8210D9682161E7B7006E488B /* 链接@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "链接@2x.png"; sourceTree = "<group>"; };
 		8210D9692161E7B7006E488B /* 链接@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "链接@3x.png"; sourceTree = "<group>"; };
+		824A6FD52165B834007DFED2 /* JBProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBProgressHUD.swift; sourceTree = "<group>"; };
+		824A6FD72165DDC3007DFED2 /* JBBassAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBBassAPI.swift; sourceTree = "<group>"; };
+		824A6FDA216610FF007DFED2 /* 删除-X@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除-X@2x.png"; sourceTree = "<group>"; };
+		824A6FDB216610FF007DFED2 /* 删除-X@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除-X@3x.png"; sourceTree = "<group>"; };
+		824A6FDC216610FF007DFED2 /* 删除（x)@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除（x)@3x.png"; sourceTree = "<group>"; };
+		824A6FDD216610FF007DFED2 /* 删除（x）@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除（x）@2x.png"; sourceTree = "<group>"; };
+		824A6FDE216610FF007DFED2 /* 头像@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "头像@2x.png"; sourceTree = "<group>"; };
+		824A6FDF216610FF007DFED2 /* 头像@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "头像@3x.png"; sourceTree = "<group>"; };
+		824A6FE0216610FF007DFED2 /* 密码锁@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码锁@2x.png"; sourceTree = "<group>"; };
+		824A6FE1216610FF007DFED2 /* 密码锁@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码锁@3x.png"; sourceTree = "<group>"; };
+		824A6FE2216610FF007DFED2 /* 详情头像@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "详情头像@2x.png"; sourceTree = "<group>"; };
+		824A6FE3216610FF007DFED2 /* 详情头像@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "详情头像@3x.png"; sourceTree = "<group>"; };
+		824A6FE4216610FF007DFED2 /* 返回@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回@2x.png"; sourceTree = "<group>"; };
+		824A6FE5216610FF007DFED2 /* 返回@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回@3x.png"; sourceTree = "<group>"; };
 		825A6C43216499540058B7CF /* JBConstStringFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBConstStringFile.swift; sourceTree = "<group>"; };
 		825A6C482164AFD00058B7CF /* JBhttpTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBhttpTool.swift; sourceTree = "<group>"; };
+		825A6C4A2164C2170058B7CF /* JBLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBLoginViewController.swift; sourceTree = "<group>"; };
+		825A6C4C2164C22D0058B7CF /* JBRegistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBRegistViewController.swift; sourceTree = "<group>"; };
+		825A6C4E2164C2470058B7CF /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		825A6C502164C2AD0058B7CF /* UserManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManger.swift; sourceTree = "<group>"; };
 		82A18D81215DEBB700F55D25 /* StickFigureMK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickFigureMK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A18D84215DEBB700F55D25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82A18D86215DEBB700F55D25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -185,8 +223,7 @@
 		82A18E7A215E09B200F55D25 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		82A18E7C215E0D3200F55D25 /* SFTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFTool.swift; sourceTree = "<group>"; };
 		82A18E7E215E173600F55D25 /* SFTextInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFTextInputView.swift; sourceTree = "<group>"; };
-		83628FB2609285B580AAD1C0 /* Pods_StickFigureMK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StickFigureMK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBB979B2718AA91884F42944 /* Pods-StickFigureMK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickFigureMK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StickFigureMK/Pods-StickFigureMK.debug.xcconfig"; sourceTree = "<group>"; };
+		B7678D1B596D3F068976FEDB /* Pods-StickFigureMK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickFigureMK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StickFigureMK/Pods-StickFigureMK.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82A18E7B215E09B200F55D25 /* JavaScriptCore.framework in Frameworks */,
+				25E7B0E0650B35EF361B4F75 /* Pods_StickFigureMK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,15 +253,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D2313AE9C93F2B6E3097C88 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BBB979B2718AA91884F42944 /* Pods-StickFigureMK.debug.xcconfig */,
-				4BBBABDEA1E3545FD2E1921B /* Pods-StickFigureMK.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		8210D95B2161E7B7006E488B /* 键盘图片 */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,10 +274,31 @@
 			path = "键盘图片";
 			sourceTree = "<group>";
 		};
+		824A6FD9216610FF007DFED2 /* 图片资源 */ = {
+			isa = PBXGroup;
+			children = (
+				824A6FDA216610FF007DFED2 /* 删除-X@2x.png */,
+				824A6FDB216610FF007DFED2 /* 删除-X@3x.png */,
+				824A6FDC216610FF007DFED2 /* 删除（x)@3x.png */,
+				824A6FDD216610FF007DFED2 /* 删除（x）@2x.png */,
+				824A6FDE216610FF007DFED2 /* 头像@2x.png */,
+				824A6FDF216610FF007DFED2 /* 头像@3x.png */,
+				824A6FE0216610FF007DFED2 /* 密码锁@2x.png */,
+				824A6FE1216610FF007DFED2 /* 密码锁@3x.png */,
+				824A6FE2216610FF007DFED2 /* 详情头像@2x.png */,
+				824A6FE3216610FF007DFED2 /* 详情头像@3x.png */,
+				824A6FE4216610FF007DFED2 /* 返回@2x.png */,
+				824A6FE5216610FF007DFED2 /* 返回@3x.png */,
+			);
+			path = "图片资源";
+			sourceTree = "<group>";
+		};
 		825A6C452164AF5F0058B7CF /* JBTool */ = {
 			isa = PBXGroup;
 			children = (
 				825A6C482164AFD00058B7CF /* JBhttpTool.swift */,
+				824A6FD52165B834007DFED2 /* JBProgressHUD.swift */,
+				824A6FD72165DDC3007DFED2 /* JBBassAPI.swift */,
 			);
 			path = JBTool;
 			sourceTree = "<group>";
@@ -264,6 +314,10 @@
 		825A6C472164AF8B0058B7CF /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				825A6C4A2164C2170058B7CF /* JBLoginViewController.swift */,
+				825A6C4C2164C22D0058B7CF /* JBRegistViewController.swift */,
+				825A6C4E2164C2470058B7CF /* UserModel.swift */,
+				825A6C502164C2AD0058B7CF /* UserManger.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -275,8 +329,8 @@
 				82A18D98215DEBCE00F55D25 /* StickFigureMKTests */,
 				82A18DA3215DEBCE00F55D25 /* StickFigureMKUITests */,
 				82A18D82215DEBB700F55D25 /* Products */,
-				4D2313AE9C93F2B6E3097C88 /* Pods */,
 				B7EE871B2D995F8D55934C9E /* Frameworks */,
+				B522B55E29F06E5AB09ED08F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -293,6 +347,7 @@
 		82A18D83215DEBB700F55D25 /* StickFigureMK */ = {
 			isa = PBXGroup;
 			children = (
+				824A6FD9216610FF007DFED2 /* 图片资源 */,
 				825A6C462164AF7A0058B7CF /* Class */,
 				825A6C452164AF5F0058B7CF /* JBTool */,
 				8210D95B2161E7B7006E488B /* 键盘图片 */,
@@ -406,11 +461,20 @@
 			path = MMMarkdown;
 			sourceTree = "<group>";
 		};
+		B522B55E29F06E5AB09ED08F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7678D1B596D3F068976FEDB /* Pods-StickFigureMK.debug.xcconfig */,
+				0BE70BDFBF5DC0702055A472 /* Pods-StickFigureMK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B7EE871B2D995F8D55934C9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				82A18E7A215E09B200F55D25 /* JavaScriptCore.framework */,
-				83628FB2609285B580AAD1C0 /* Pods_StickFigureMK.framework */,
+				8118135C82502C712B71C0B1 /* Pods_StickFigureMK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -422,11 +486,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82A18DA9215DEBCE00F55D25 /* Build configuration list for PBXNativeTarget "StickFigureMK" */;
 			buildPhases = (
-				E5102F19318EB79B88061304 /* [CP] Check Pods Manifest.lock */,
+				E6040D5AD7C63D4E392ACEC0 /* [CP] Check Pods Manifest.lock */,
 				82A18D7D215DEBB700F55D25 /* Sources */,
 				82A18D7E215DEBB700F55D25 /* Frameworks */,
 				82A18D7F215DEBB700F55D25 /* Resources */,
-				4B35E10AE56386B14E4DB422 /* [CP] Embed Pods Frameworks */,
+				012372044159EB2D7BF7EE01 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -521,12 +585,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824A6FE8216610FF007DFED2 /* 删除（x)@3x.png in Resources */,
 				82A18E3D215E093100F55D25 /* Code block in a list item.html in Resources */,
 				82A18D8F215DEBCD00F55D25 /* LaunchScreen.storyboard in Resources */,
 				8210D96D2161E7B8006E488B /* 加号@3x.png in Resources */,
 				8210D9702161E7B8006E488B /* 无序列表@2x.png in Resources */,
 				82A18E5B215E093100F55D25 /* Tight blocks.html in Resources */,
 				82A18E4A215E093100F55D25 /* Inline HTML (Simple).text in Resources */,
+				824A6FE6216610FF007DFED2 /* 删除-X@2x.png in Resources */,
 				8210D9712161E7B8006E488B /* 无序列表@3.png in Resources */,
 				82A18E46215E093100F55D25 /* Headers.text in Resources */,
 				8210D9722161E7B8006E488B /* 标题1@2x.png in Resources */,
@@ -540,18 +606,23 @@
 				82A18E3E215E093100F55D25 /* Code block in a list item.text in Resources */,
 				8210D96F2161E7B8006E488B /* 加粗@3x.png in Resources */,
 				82A18E3C215E093100F55D25 /* Backslash escapes.text in Resources */,
+				824A6FE7216610FF007DFED2 /* 删除-X@3x.png in Resources */,
 				82A18E40215E093100F55D25 /* Code Spans.text in Resources */,
 				82A18E3B215E093100F55D25 /* Backslash escapes.html in Resources */,
 				82A18E47215E093100F55D25 /* Images (Untitled).html in Resources */,
+				824A6FF1216610FF007DFED2 /* 返回@3x.png in Resources */,
 				82A18D8C215DEBCD00F55D25 /* Assets.xcassets in Resources */,
 				82A18E4C215E093100F55D25 /* Inline HTML (Span).text in Resources */,
+				824A6FF0216610FF007DFED2 /* 返回@2x.png in Resources */,
 				8210D9762161E7B8006E488B /* 链接@2x.png in Resources */,
 				8210D96C2161E7B8006E488B /* 加号@2x.png in Resources */,
+				824A6FEE216610FF007DFED2 /* 详情头像@2x.png in Resources */,
 				8210D9772161E7B8006E488B /* 链接@3x.png in Resources */,
 				8210D9752161E7B8006E488B /* 标题2@3x.png in Resources */,
 				82A18E4B215E093100F55D25 /* Inline HTML (Span).html in Resources */,
 				82A18E45215E093100F55D25 /* Headers.html in Resources */,
 				82A18E5A215E093100F55D25 /* PHP-Specific Bugs.text in Resources */,
+				824A6FEF216610FF007DFED2 /* 详情头像@3x.png in Resources */,
 				82A18D8A215DEBB700F55D25 /* Main.storyboard in Resources */,
 				82A18E58215E093100F55D25 /* Parens in URL.text in Resources */,
 				8210D9742161E7B8006E488B /* 标题2@2x.png in Resources */,
@@ -560,7 +631,9 @@
 				82A18E5C215E093100F55D25 /* Tight blocks.text in Resources */,
 				82A18E51215E093100F55D25 /* Links, inline style.html in Resources */,
 				82A18E56215E093100F55D25 /* Nesting.text in Resources */,
+				824A6FEB216610FF007DFED2 /* 头像@3x.png in Resources */,
 				82A18E54215E093100F55D25 /* MD5 Hashes.text in Resources */,
+				824A6FEA216610FF007DFED2 /* 头像@2x.png in Resources */,
 				82A18E71215E094900F55D25 /* Info.plist in Resources */,
 				82A18E44215E093100F55D25 /* Emphasis.text in Resources */,
 				82A18E55215E093100F55D25 /* Nesting.html in Resources */,
@@ -568,10 +641,13 @@
 				8210D9732161E7B8006E488B /* 标题1@3x.png in Resources */,
 				82A18E43215E093100F55D25 /* Emphasis.html in Resources */,
 				82A18E53215E093100F55D25 /* MD5 Hashes.html in Resources */,
+				824A6FEC216610FF007DFED2 /* 密码锁@2x.png in Resources */,
 				82A18E52215E093100F55D25 /* Links, inline style.text in Resources */,
 				82A18E50215E093100F55D25 /* Ins & del.text in Resources */,
 				82A18E42215E093100F55D25 /* Email auto links.text in Resources */,
+				824A6FED216610FF007DFED2 /* 密码锁@3x.png in Resources */,
 				8210D96E2161E7B8006E488B /* 加粗@2x.png in Resources */,
+				824A6FE9216610FF007DFED2 /* 删除（x）@2x.png in Resources */,
 				82A18E59215E093100F55D25 /* PHP-Specific Bugs.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -593,7 +669,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4B35E10AE56386B14E4DB422 /* [CP] Embed Pods Frameworks */ = {
+		012372044159EB2D7BF7EE01 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -606,6 +682,7 @@
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -615,13 +692,14 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StickFigureMK/Pods-StickFigureMK-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E5102F19318EB79B88061304 /* [CP] Check Pods Manifest.lock */ = {
+		E6040D5AD7C63D4E392ACEC0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -646,20 +724,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824A6FD62165B834007DFED2 /* JBProgressHUD.swift in Sources */,
 				82A18E73215E094900F55D25 /* MMElement.m in Sources */,
 				82A18E72215E094900F55D25 /* MMDocument.m in Sources */,
 				82A18D87215DEBB700F55D25 /* ViewController.swift in Sources */,
+				825A6C512164C2AD0058B7CF /* UserManger.swift in Sources */,
 				82A18E75215E094900F55D25 /* MMHTMLParser.m in Sources */,
 				82A18E7F215E173600F55D25 /* SFTextInputView.swift in Sources */,
 				82A18E78215E094900F55D25 /* MMScanner.m in Sources */,
 				825A6C492164AFD00058B7CF /* JBhttpTool.swift in Sources */,
+				825A6C4D2164C22D0058B7CF /* JBRegistViewController.swift in Sources */,
 				825A6C44216499540058B7CF /* JBConstStringFile.swift in Sources */,
 				82A18E76215E094900F55D25 /* MMMarkdown.m in Sources */,
 				82A18D85215DEBB700F55D25 /* AppDelegate.swift in Sources */,
+				825A6C4B2164C2170058B7CF /* JBLoginViewController.swift in Sources */,
 				82A18DB4215E081900F55D25 /* SFTextView.swift in Sources */,
 				82A18E79215E094900F55D25 /* MMSpanParser.m in Sources */,
 				82A18E74215E094900F55D25 /* MMGenerator.m in Sources */,
+				824A6FD82165DDC3007DFED2 /* JBBassAPI.swift in Sources */,
 				82A18E7D215E0D3200F55D25 /* SFTool.swift in Sources */,
+				825A6C4F2164C2470058B7CF /* UserModel.swift in Sources */,
 				82A18E77215E094900F55D25 /* MMParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -833,10 +917,11 @@
 		};
 		82A18DAA215DEBCE00F55D25 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBB979B2718AA91884F42944 /* Pods-StickFigureMK.debug.xcconfig */;
+			baseConfigurationReference = B7678D1B596D3F068976FEDB /* Pods-StickFigureMK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = NUD3T57M8Z;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = StickFigureMK/Info.plist;
@@ -856,10 +941,11 @@
 		};
 		82A18DAB215DEBCE00F55D25 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BBBABDEA1E3545FD2E1921B /* Pods-StickFigureMK.release.xcconfig */;
+			baseConfigurationReference = 0BE70BDFBF5DC0702055A472 /* Pods-StickFigureMK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = NUD3T57M8Z;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = StickFigureMK/Info.plist;
