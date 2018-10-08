@@ -38,10 +38,14 @@
 		824A6FF1216610FF007DFED2 /* 返回@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824A6FE5216610FF007DFED2 /* 返回@3x.png */; };
 		825A6C44216499540058B7CF /* JBConstStringFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A6C43216499540058B7CF /* JBConstStringFile.swift */; };
 		825A6C492164AFD00058B7CF /* JBhttpTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A6C482164AFD00058B7CF /* JBhttpTool.swift */; };
-		825A6C4B2164C2170058B7CF /* JBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A6C4A2164C2170058B7CF /* JBLoginViewController.swift */; };
 		825A6C4D2164C22D0058B7CF /* JBRegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A6C4C2164C22D0058B7CF /* JBRegistViewController.swift */; };
 		825A6C4F2164C2470058B7CF /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A6C4E2164C2470058B7CF /* UserModel.swift */; };
 		825A6C512164C2AD0058B7CF /* UserManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A6C502164C2AD0058B7CF /* UserManger.swift */; };
+		826BD120216ADDB200D4B7A3 /* JBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826BD11F216ADDB200D4B7A3 /* JBLoginViewController.swift */; };
+		826BD125216ADE5D00D4B7A3 /* JBRGBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826BD124216ADE5D00D4B7A3 /* JBRGBColor.swift */; };
+		826BD127216AEF8600D4B7A3 /* JBBassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826BD126216AEF8600D4B7A3 /* JBBassViewController.swift */; };
+		826BD129216AF99900D4B7A3 /* JBTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826BD128216AF99900D4B7A3 /* JBTool.swift */; };
+		829D88B0216B2A3D0048D5FB /* JBBassDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D88AF216B2A3D0048D5FB /* JBBassDictionary.swift */; };
 		82A18D85215DEBB700F55D25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A18D84215DEBB700F55D25 /* AppDelegate.swift */; };
 		82A18D87215DEBB700F55D25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A18D86215DEBB700F55D25 /* ViewController.swift */; };
 		82A18D8A215DEBB700F55D25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A18D88215DEBB700F55D25 /* Main.storyboard */; };
@@ -148,10 +152,14 @@
 		824A6FE5216610FF007DFED2 /* 返回@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回@3x.png"; sourceTree = "<group>"; };
 		825A6C43216499540058B7CF /* JBConstStringFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBConstStringFile.swift; sourceTree = "<group>"; };
 		825A6C482164AFD00058B7CF /* JBhttpTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBhttpTool.swift; sourceTree = "<group>"; };
-		825A6C4A2164C2170058B7CF /* JBLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBLoginViewController.swift; sourceTree = "<group>"; };
 		825A6C4C2164C22D0058B7CF /* JBRegistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBRegistViewController.swift; sourceTree = "<group>"; };
 		825A6C4E2164C2470058B7CF /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		825A6C502164C2AD0058B7CF /* UserManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManger.swift; sourceTree = "<group>"; };
+		826BD11F216ADDB200D4B7A3 /* JBLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBLoginViewController.swift; sourceTree = "<group>"; };
+		826BD124216ADE5D00D4B7A3 /* JBRGBColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBRGBColor.swift; sourceTree = "<group>"; };
+		826BD126216AEF8600D4B7A3 /* JBBassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBBassViewController.swift; sourceTree = "<group>"; };
+		826BD128216AF99900D4B7A3 /* JBTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBTool.swift; sourceTree = "<group>"; };
+		829D88AF216B2A3D0048D5FB /* JBBassDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBBassDictionary.swift; sourceTree = "<group>"; };
 		82A18D81215DEBB700F55D25 /* StickFigureMK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickFigureMK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A18D84215DEBB700F55D25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82A18D86215DEBB700F55D25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -299,6 +307,7 @@
 				825A6C482164AFD00058B7CF /* JBhttpTool.swift */,
 				824A6FD52165B834007DFED2 /* JBProgressHUD.swift */,
 				824A6FD72165DDC3007DFED2 /* JBBassAPI.swift */,
+				826BD128216AF99900D4B7A3 /* JBTool.swift */,
 			);
 			path = JBTool;
 			sourceTree = "<group>";
@@ -314,12 +323,22 @@
 		825A6C472164AF8B0058B7CF /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				825A6C4A2164C2170058B7CF /* JBLoginViewController.swift */,
+				826BD11F216ADDB200D4B7A3 /* JBLoginViewController.swift */,
 				825A6C4C2164C22D0058B7CF /* JBRegistViewController.swift */,
 				825A6C4E2164C2470058B7CF /* UserModel.swift */,
 				825A6C502164C2AD0058B7CF /* UserManger.swift */,
+				826BD126216AEF8600D4B7A3 /* JBBassViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		826BD123216ADE5D00D4B7A3 /* Catagary */ = {
+			isa = PBXGroup;
+			children = (
+				826BD124216ADE5D00D4B7A3 /* JBRGBColor.swift */,
+				829D88AF216B2A3D0048D5FB /* JBBassDictionary.swift */,
+			);
+			path = Catagary;
 			sourceTree = "<group>";
 		};
 		82A18D78215DEBB600F55D25 = {
@@ -388,6 +407,7 @@
 		82A18E17215E092600F55D25 /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				826BD123216ADE5D00D4B7A3 /* Catagary */,
 				82A18E5D215E094900F55D25 /* MMMarkdown */,
 				82A18E18215E093000F55D25 /* php-markdown */,
 			);
@@ -724,7 +744,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829D88B0216B2A3D0048D5FB /* JBBassDictionary.swift in Sources */,
 				824A6FD62165B834007DFED2 /* JBProgressHUD.swift in Sources */,
+				826BD129216AF99900D4B7A3 /* JBTool.swift in Sources */,
+				826BD125216ADE5D00D4B7A3 /* JBRGBColor.swift in Sources */,
 				82A18E73215E094900F55D25 /* MMElement.m in Sources */,
 				82A18E72215E094900F55D25 /* MMDocument.m in Sources */,
 				82A18D87215DEBB700F55D25 /* ViewController.swift in Sources */,
@@ -737,9 +760,10 @@
 				825A6C44216499540058B7CF /* JBConstStringFile.swift in Sources */,
 				82A18E76215E094900F55D25 /* MMMarkdown.m in Sources */,
 				82A18D85215DEBB700F55D25 /* AppDelegate.swift in Sources */,
-				825A6C4B2164C2170058B7CF /* JBLoginViewController.swift in Sources */,
+				826BD120216ADDB200D4B7A3 /* JBLoginViewController.swift in Sources */,
 				82A18DB4215E081900F55D25 /* SFTextView.swift in Sources */,
 				82A18E79215E094900F55D25 /* MMSpanParser.m in Sources */,
+				826BD127216AEF8600D4B7A3 /* JBBassViewController.swift in Sources */,
 				82A18E74215E094900F55D25 /* MMGenerator.m in Sources */,
 				824A6FD82165DDC3007DFED2 /* JBBassAPI.swift in Sources */,
 				82A18E7D215E0D3200F55D25 /* SFTool.swift in Sources */,

@@ -25,7 +25,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if usermaner.IsLogin {
             
         }else{
-            window?.rootViewController=JBLoginViewController()
+            
+            let  logNav =     UINavigationController.init(rootViewController: JBLoginViewController())
+            
+            window?.rootViewController=logNav
         }
        
         window?.makeKeyAndVisible()

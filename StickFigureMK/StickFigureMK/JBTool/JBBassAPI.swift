@@ -11,6 +11,7 @@ import UIKit
 enum PortType {
     case login //登录接口
     case Regist //注册
+    case SMSCode //获取短信验证码
 }
 
 class JBBassAPI: NSObject {
@@ -20,7 +21,8 @@ class JBBassAPI: NSObject {
    // let  bassAPI = "http://192.168.0.8:8080"
     
   static  let URL_POST_LOGIN="simplemd"
-    
+  static let URL_POST_REGIST="registered"
+   static let URL_POST_SMSCODE="smsCodeRequest"
   class  func registAPI(portType:PortType) -> String {
     var url = String.init(bassAPI)
     
@@ -28,9 +30,16 @@ class JBBassAPI: NSObject {
         case .login:
             url.append("/\(URL_POST_LOGIN)")
             break
+        case .Regist:
+            url.append(contentsOf: URL_POST_REGIST)
+            break
+        case .SMSCode:
+            url.append(contentsOf: URL_POST_SMSCODE)
+            break
+            
         default:
-            return "sssss"
-           
+            
+           break
         }
     
       return url
