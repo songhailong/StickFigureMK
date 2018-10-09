@@ -12,6 +12,7 @@ class JBLoginViewController: UIViewController {
     let  loginBtn:UIButton=UIButton()
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden=true
         self.view.backgroundColor=UIColor.white
         setupaUI()
      }

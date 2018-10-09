@@ -23,9 +23,19 @@ class JBhttpTool: NSObject {
     
     class  func POSTRequst(url:String,patams:NSDictionary,sucessBlock:@escaping (_ responseObject:Any)->(),failBlock:@escaping (_ errr:Error)->()) {
     let afmanger = JBhttpTool.shareHttpTool()
+          let systemName = UIDevice.current.name
+        print(systemName)
+        let touchname="Mozilla/5.0 (\(systemName)) Gecko/20100101 Firefox/60.0"
+        afmanger.requestSerializer.setValue(touchname, forHTTPHeaderField: "User-Agent");
     afmanger.post(url, parameters: patams, progress: { (progress:Progress) in
         
     }, success: { (task:URLSessionDataTask, responseObject:Any?) in
+        let response = task.response as! HTTPURLResponse
+         let allHeaders = response.allHeaderFields;
+        //NSLog(@"响应--%@\n响应头--%@",response,allHeaders);
+        print(allHeaders)
+       
+        
         sucessBlock(responseObject ?? nil!)
     }) { (task:URLSessionDataTask?, errr:Error) in
         failBlock(errr)

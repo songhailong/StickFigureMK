@@ -12,7 +12,7 @@ class JBBassDictionary: NSMutableDictionary {
     
  class   func initJBDic() -> NSMutableDictionary {
         let dic=NSMutableDictionary.init()
-        dic.setValue(2, forKey: "client ")
+        dic.setValue(2, forKey: "client")
         return dic
     }
     

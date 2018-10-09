@@ -16,7 +16,7 @@ enum PortType {
 
 class JBBassAPI: NSObject {
     //测试库
-   static let bassAPI = "http://192.168.0.8:8080"
+   static let bassAPI = "http://192.168.0.8:8080/simplemd/"
     //正式库
    // let  bassAPI = "http://192.168.0.8:8080"
     
@@ -28,7 +28,7 @@ class JBBassAPI: NSObject {
     
         switch portType {
         case .login:
-            url.append("/\(URL_POST_LOGIN)")
+            url.append(URL_POST_LOGIN)
             break
         case .Regist:
             url.append(contentsOf: URL_POST_REGIST)
