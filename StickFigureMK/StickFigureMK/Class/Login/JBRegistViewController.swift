@@ -76,7 +76,7 @@ private   func setupUI()  {
             //regisDic.setValue(self.passWordFilde.text, forKey: "password")
             
             let url=JBBassAPI.registAPI(portType: .SMSCode)
-            print(url)
+           
             JBhttpTool.POSTRequst(url: url, patams: regisDic, sucessBlock: { (object) in
                 let json = JBTool.nsdataToJSON(data: object as! NSData)
                 let  sucessu =  json.object(forKey: "success")as! Bool

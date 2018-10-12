@@ -23,7 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     apper.contentInsetAdjustmentBehavior=UIScrollViewContentInsetAdjustmentBehavior.never
         let usermaner=UserManger.shareUserManger()
         if usermaner.IsLogin {
+            let  mainNav =     UINavigationController.init(rootViewController:JBMainViewController())
             
+            window?.rootViewController=mainNav
         }else{
             
             let  logNav =     UINavigationController.init(rootViewController: JBLoginViewController())

@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - CWLateralSlide (1.6.3)
   - EFCMark (0.0.1)
   - EFMarkdown (4.0.0):
     - EFCMark
@@ -26,6 +27,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - CWLateralSlide
   - EFMarkdown
   - Masonry
   - MBProgressHUD
@@ -35,6 +37,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - CWLateralSlide
     - EFCMark
     - EFMarkdown
     - Masonry
@@ -44,6 +47,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CWLateralSlide: 1b9a848873b93de45cfefe6389765b12aa70982c
   EFCMark: 384f782f489f104c590dc375b9de902de37ebca3
   EFMarkdown: ee89bd6644fca23b9128576d6d87cb2e1c537d89
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -51,6 +55,6 @@ SPEC CHECKSUMS:
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 15076e368b10a031442246219cc668c36eec6d73
+PODFILE CHECKSUM: c5bcc3edbeeb79099b7295f01bf255f3288e5c07
 
 COCOAPODS: 1.5.2

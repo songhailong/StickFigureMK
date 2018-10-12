@@ -36,6 +36,10 @@
 		824A6FEF216610FF007DFED2 /* 详情头像@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824A6FE3216610FF007DFED2 /* 详情头像@3x.png */; };
 		824A6FF0216610FF007DFED2 /* 返回@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824A6FE4216610FF007DFED2 /* 返回@2x.png */; };
 		824A6FF1216610FF007DFED2 /* 返回@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824A6FE5216610FF007DFED2 /* 返回@3x.png */; };
+		82544BCA21706392000A0B4A /* JBBassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82544BC921706392000A0B4A /* JBBassViewController.swift */; };
+		82544BD22170656D000A0B4A /* JBMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82544BD12170656D000A0B4A /* JBMainViewController.swift */; };
+		82544BD4217065CF000A0B4A /* JBLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82544BD3217065CF000A0B4A /* JBLeftViewController.swift */; };
+		82544BD62170666B000A0B4A /* JBNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82544BD52170666B000A0B4A /* JBNoteViewController.swift */; };
 		825A6C44216499540058B7CF /* JBConstStringFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A6C43216499540058B7CF /* JBConstStringFile.swift */; };
 		825A6C492164AFD00058B7CF /* JBhttpTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A6C482164AFD00058B7CF /* JBhttpTool.swift */; };
 		825A6C4D2164C22D0058B7CF /* JBRegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A6C4C2164C22D0058B7CF /* JBRegistViewController.swift */; };
@@ -43,10 +47,8 @@
 		825A6C512164C2AD0058B7CF /* UserManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825A6C502164C2AD0058B7CF /* UserManger.swift */; };
 		826BD120216ADDB200D4B7A3 /* JBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826BD11F216ADDB200D4B7A3 /* JBLoginViewController.swift */; };
 		826BD125216ADE5D00D4B7A3 /* JBRGBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826BD124216ADE5D00D4B7A3 /* JBRGBColor.swift */; };
-		826BD127216AEF8600D4B7A3 /* JBBassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826BD126216AEF8600D4B7A3 /* JBBassViewController.swift */; };
 		826BD129216AF99900D4B7A3 /* JBTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826BD128216AF99900D4B7A3 /* JBTool.swift */; };
 		82704DBA216C9B9E00201F71 /* MCGCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82704DB9216C9B9D00201F71 /* MCGCDTimer.swift */; };
-		82704DBC216CAAC200201F71 /* JBMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82704DBB216CAAC200201F71 /* JBMainViewController.swift */; };
 		829D88B0216B2A3D0048D5FB /* JBBassDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D88AF216B2A3D0048D5FB /* JBBassDictionary.swift */; };
 		82A18D85215DEBB700F55D25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A18D84215DEBB700F55D25 /* AppDelegate.swift */; };
 		82A18D87215DEBB700F55D25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A18D86215DEBB700F55D25 /* ViewController.swift */; };
@@ -152,6 +154,10 @@
 		824A6FE3216610FF007DFED2 /* 详情头像@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "详情头像@3x.png"; sourceTree = "<group>"; };
 		824A6FE4216610FF007DFED2 /* 返回@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回@2x.png"; sourceTree = "<group>"; };
 		824A6FE5216610FF007DFED2 /* 返回@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回@3x.png"; sourceTree = "<group>"; };
+		82544BC921706392000A0B4A /* JBBassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBBassViewController.swift; sourceTree = "<group>"; };
+		82544BD12170656D000A0B4A /* JBMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBMainViewController.swift; sourceTree = "<group>"; };
+		82544BD3217065CF000A0B4A /* JBLeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBLeftViewController.swift; sourceTree = "<group>"; };
+		82544BD52170666B000A0B4A /* JBNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBNoteViewController.swift; sourceTree = "<group>"; };
 		825A6C43216499540058B7CF /* JBConstStringFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBConstStringFile.swift; sourceTree = "<group>"; };
 		825A6C482164AFD00058B7CF /* JBhttpTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBhttpTool.swift; sourceTree = "<group>"; };
 		825A6C4C2164C22D0058B7CF /* JBRegistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBRegistViewController.swift; sourceTree = "<group>"; };
@@ -159,10 +165,8 @@
 		825A6C502164C2AD0058B7CF /* UserManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManger.swift; sourceTree = "<group>"; };
 		826BD11F216ADDB200D4B7A3 /* JBLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBLoginViewController.swift; sourceTree = "<group>"; };
 		826BD124216ADE5D00D4B7A3 /* JBRGBColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBRGBColor.swift; sourceTree = "<group>"; };
-		826BD126216AEF8600D4B7A3 /* JBBassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBBassViewController.swift; sourceTree = "<group>"; };
 		826BD128216AF99900D4B7A3 /* JBTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBTool.swift; sourceTree = "<group>"; };
 		82704DB9216C9B9D00201F71 /* MCGCDTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCGCDTimer.swift; sourceTree = "<group>"; };
-		82704DBB216CAAC200201F71 /* JBMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBMainViewController.swift; sourceTree = "<group>"; };
 		829D88AF216B2A3D0048D5FB /* JBBassDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBBassDictionary.swift; sourceTree = "<group>"; };
 		82A18D81215DEBB700F55D25 /* StickFigureMK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickFigureMK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A18D84215DEBB700F55D25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -305,6 +309,17 @@
 			path = "图片资源";
 			sourceTree = "<group>";
 		};
+		82544BC82170637F000A0B4A /* JBMain */ = {
+			isa = PBXGroup;
+			children = (
+				82544BC921706392000A0B4A /* JBBassViewController.swift */,
+				82544BD12170656D000A0B4A /* JBMainViewController.swift */,
+				82544BD3217065CF000A0B4A /* JBLeftViewController.swift */,
+				82544BD52170666B000A0B4A /* JBNoteViewController.swift */,
+			);
+			path = JBMain;
+			sourceTree = "<group>";
+		};
 		825A6C452164AF5F0058B7CF /* JBTool */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,7 +334,7 @@
 		825A6C462164AF7A0058B7CF /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				82704DBD216CAAE900201F71 /* Main */,
+				82544BC82170637F000A0B4A /* JBMain */,
 				825A6C472164AF8B0058B7CF /* Login */,
 			);
 			path = Class;
@@ -332,7 +347,6 @@
 				825A6C4C2164C22D0058B7CF /* JBRegistViewController.swift */,
 				825A6C4E2164C2470058B7CF /* UserModel.swift */,
 				825A6C502164C2AD0058B7CF /* UserManger.swift */,
-				826BD126216AEF8600D4B7A3 /* JBBassViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -345,14 +359,6 @@
 				829D88AF216B2A3D0048D5FB /* JBBassDictionary.swift */,
 			);
 			path = Catagary;
-			sourceTree = "<group>";
-		};
-		82704DBD216CAAE900201F71 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				82704DBB216CAAC200201F71 /* JBMainViewController.swift */,
-			);
-			path = Main;
 			sourceTree = "<group>";
 		};
 		82A18D78215DEBB600F55D25 = {
@@ -711,6 +717,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-StickFigureMK/Pods-StickFigureMK-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/CWLateralSlide/CWLateralSlide.framework",
 				"${BUILT_PRODUCTS_DIR}/EFCMark/EFCMark.framework",
 				"${BUILT_PRODUCTS_DIR}/EFMarkdown/EFMarkdown.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
@@ -721,6 +728,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CWLateralSlide.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EFCMark.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EFMarkdown.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
@@ -758,6 +766,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82544BCA21706392000A0B4A /* JBBassViewController.swift in Sources */,
+				82544BD4217065CF000A0B4A /* JBLeftViewController.swift in Sources */,
 				829D88B0216B2A3D0048D5FB /* JBBassDictionary.swift in Sources */,
 				824A6FD62165B834007DFED2 /* JBProgressHUD.swift in Sources */,
 				82704DBA216C9B9E00201F71 /* MCGCDTimer.swift in Sources */,
@@ -766,10 +776,11 @@
 				82A18E73215E094900F55D25 /* MMElement.m in Sources */,
 				82A18E72215E094900F55D25 /* MMDocument.m in Sources */,
 				82A18D87215DEBB700F55D25 /* ViewController.swift in Sources */,
+				82544BD22170656D000A0B4A /* JBMainViewController.swift in Sources */,
 				825A6C512164C2AD0058B7CF /* UserManger.swift in Sources */,
+				82544BD62170666B000A0B4A /* JBNoteViewController.swift in Sources */,
 				82A18E75215E094900F55D25 /* MMHTMLParser.m in Sources */,
 				82A18E7F215E173600F55D25 /* SFTextInputView.swift in Sources */,
-				82704DBC216CAAC200201F71 /* JBMainViewController.swift in Sources */,
 				82A18E78215E094900F55D25 /* MMScanner.m in Sources */,
 				825A6C492164AFD00058B7CF /* JBhttpTool.swift in Sources */,
 				825A6C4D2164C22D0058B7CF /* JBRegistViewController.swift in Sources */,
@@ -779,7 +790,6 @@
 				826BD120216ADDB200D4B7A3 /* JBLoginViewController.swift in Sources */,
 				82A18DB4215E081900F55D25 /* SFTextView.swift in Sources */,
 				82A18E79215E094900F55D25 /* MMSpanParser.m in Sources */,
-				826BD127216AEF8600D4B7A3 /* JBBassViewController.swift in Sources */,
 				82A18E74215E094900F55D25 /* MMGenerator.m in Sources */,
 				824A6FD82165DDC3007DFED2 /* JBBassAPI.swift in Sources */,
 				82A18E7D215E0D3200F55D25 /* SFTool.swift in Sources */,
